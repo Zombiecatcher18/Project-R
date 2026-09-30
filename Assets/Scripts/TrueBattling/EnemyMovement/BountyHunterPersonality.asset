@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e442599475985408fdd9ae82206d33, type: 3}
+  m_Name: BountyHunterPersonality
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyPersonalityProfile
+  personalityType: 0
+  damageMultiplier: 1.1
+  qteSpeedMultiplier: 0.9
+  fakeoutChanceMultiplier: 1.4
+  critChanceMultiplier: 1.2
+  scalingMultiplier: 1
+  forceFakeouts: 0
+  forbidFakeouts: 0
+  prefersCounters: 1
+  prefersHeavy: 0
+  prefersMultiHit: 0
+  extraAggressiveBias: 0.2
+  extraArmorPiercingBias: 0.1
+  extraExecuteBias: 0.2
+  extraFakeoutBias: 0.3

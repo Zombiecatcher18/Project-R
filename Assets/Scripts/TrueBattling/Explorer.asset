@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3927850f469f9bc4e8baa552d3da837e, type: 3}
+  m_Name: Explorer
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyInfo
+  enemyID: Enemy_02
+  enemyName: Explorer
+  enemyType: Explorer
+  baseLevel: 2
+  maxScalingLevel: 6
+  hpPerLevel: 5
+  atkPerLevel: 1
+  defPerLevel: 1
+  counteratkPerLevel: 1
+  comboSlotsPerLevel: 1
+  statRollMin: 1
+  statRollMax: 10
+  handSizeOverride: 4
+  handSizePerLevel: 1
+  maxHP: 180
+  attack: 15
+  defense: 10
+  counteratk: 3
+  baseDeckSize: 4
+  deckSizePerLevel: 1
+  bountyReward: 100
+  capsuleColor: {r: 1, g: 0, b: 0, a: 1}
+  moves:
+  - {fileID: 11400000, guid: 02d4bca847849124890d893b16d0c224, type: 2}
+  - {fileID: 11400000, guid: 164b15fa8df62574fb49b2866db11f54, type: 2}
+  - {fileID: 11400000, guid: 6aecdb382b3066e498bf353936597fa9, type: 2}
+  - {fileID: 11400000, guid: 6be5549b6abd74a4ead4fb3482558cff, type: 2}
+  - {fileID: 11400000, guid: bbfaf93af172e204bbbcea390046582d, type: 2}
+  - {fileID: 11400000, guid: 494f3466165e77c46bec7df3ce3707bd, type: 2}
+  maxComboSlots: 6
+  fakeoutBias: 1
+  tricksterFactor: 2
+  personality: {fileID: 11400000, guid: f6aa56c6c49b36c4490cd96635ca153e, type: 2}

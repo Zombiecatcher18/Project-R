@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe504b887717554b897772e03537451, type: 3}
+  m_Name: PestControl
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMove
+  moveName: Pest Control
+  attackMove: {fileID: 11400000, guid: 1490082522f5041468f3835694b172b1, type: 2}
+  slotCost: 2
+  baseDamage: 16
+  requiresQTE: 1
+  qteType: 1
+  qteSpeed: 1
+  possibleButtons: 20000000
+  hasFakeout: 1
+  fakeoutChance: 0.5
+  fakeoutDelay: 0.5
+  fakeoutRequiresQTE: 1
+  damageOnMiss: 10
+  damageOnPerfect: 0
+  counterAttackDamage: 12
+  critChance: 0.1
+  critMultiplier: 1.5
+  tags: 0800000007000000
+  hpScaling: 0
+  atkScaling: 0
+  defScaling: 0
+  ignoresDefense: 0
+  damageType: 0
+  aggression: 5
+  antiTank: 0
+  trickiness: 0
